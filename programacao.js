@@ -2,17 +2,18 @@ const questions = [
   {
     question: "O que é Tecnologia?",
     answers: [
-      { option: "Ferramentas e métodos criados para resolver problemas ou facilitar tarefas.", correct: true },
       { option: "Somente aparelhos eletrônicos, como celulares e computadores.", correct: false },
       { option: "Coisas feitas exclusivamente por cientistas.", correct: false },
+      { option: "Ferramentas e métodos criados para resolver problemas ou facilitar tarefas.", correct: true },
       { option: "Objetos antigos preservados em museus.", correct: false }
     ]
   },
   {
     question: "O que é a Internet?",
     answers: [
-      { option: "Um sistema global que conecta redes de computadores para troca de informações.", correct: true },
+      
       { option: "Um programa que só funciona em computadores.", correct: false },
+      { option: "Um sistema global que conecta redes de computadores para troca de informações.", correct: true },
       { option: "Uma tecnologia usada apenas para redes sociais.", correct: false },
       { option: "Uma rede fechada de empresas de tecnologia.", correct: false }
     ]
@@ -29,10 +30,11 @@ const questions = [
   {
     question: "Onde os sites ficam hospedados?",
     answers: [
-      { option: "Em servidores, que são computadores especializados.", correct: true },
+     
       { option: "No computador pessoal do criador do site.", correct: false },
       { option: "Diretamente na Internet, sem precisar de nenhum equipamento físico.", correct: false },
-      { option: "Em dispositivos móveis, como celulares e tablets.", correct: false }
+      { option: "Em dispositivos móveis, como celulares e tablets.", correct: false },
+      { option: "Em servidores, que são computadores especializados.", correct: true }
     ]
   },
   {
@@ -47,8 +49,9 @@ const questions = [
   {
     question: "Quem foi Ada Lovelace?",
     answers: [
-      { option: "A primeira pessoa a criar um algoritmo para ser processado por uma máquina.", correct: true },
       { option: "Uma engenheira que projetou os primeiros computadores.", correct: false },
+      { option: "A primeira pessoa a criar um algoritmo para ser processado por uma máquina.", correct: true },
+      
       { option: "Uma matemática que inventou a Internet.", correct: false },
       { option: "Uma programadora famosa por desenvolver linguagens modernas.", correct: false }
     ]
@@ -56,9 +59,10 @@ const questions = [
   {
     question: "O que é um Web Site?",
     answers: [
-      { option: "Uma coleção de páginas interligadas na Internet, acessadas por um navegador.", correct: true },
+      
       { option: "Um arquivo armazenado no computador.", correct: false },
       { option: "Uma ferramenta para criar redes de computadores.", correct: false },
+      { option: "Uma coleção de páginas interligadas na Internet, acessadas por um navegador.", correct: true },
       { option: "Um aplicativo que só funciona em celulares.", correct: false }
     ]
   },
@@ -74,10 +78,11 @@ const questions = [
   {
     question: "O que iremos utilizar para criar o site pessoal nessa oficina?",
     answers: [
-      { option: "HTML e CSS, que são tecnologias para estruturar e estilizar páginas web.", correct: true },
+      
       { option: "Apenas editores de texto como Word ou Google Docs.", correct: false },
       { option: "Um software específico para design gráfico.", correct: false },
-      { option: "Aplicativos de redes sociais.", correct: false }
+      { option: "Aplicativos de redes sociais.", correct: false },
+      { option: "HTML e CSS, que são tecnologias para estruturar e estilizar páginas web.", correct: true }
     ]
   }
 ];
