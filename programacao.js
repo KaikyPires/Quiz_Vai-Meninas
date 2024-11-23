@@ -22,30 +22,30 @@ const questions = [
     question: "Qual o objetivo da Internet?",
     answers: [
 
-      { option: "Procurar jogos e assistir vídeos.", correct: false },
-      { option: "Salvar arquivos importantes.", correct: false },
-      { option: "Compartilhar informações e conectar pessoas.", correct: true },
-      { option: "Criar documentos e enviar e-mails.", correct: false }
+      { option: "Conectar pessoas e compartilhar informações.", correct: true },
+      { option: "Apenas assistir vídeos.", correct: false },
+      { option: "Ajudar as pessoas a fazerem cálculos.", correct: false },
+      { option: "Criar senhas complicadas.", correct: false }
     ]
   },
   {
     question: "Onde os sites ficam hospedados?",
     answers: [
     
-      { option: "No celular de quem acessa.", correct: false },
       { option: "Em computadores chamados servidores.", correct: true },
-      { option: "Na memória do computador pessoal.", correct: false },
-      { option: "Em aplicativos de armazenamento.", correct: false }
+      { option: "Em um CD ou DVD.", correct: false },
+      { option: "No celular.", correct: false },
+      { option: "Em um pen drive.", correct: false }
     ]
   },
   {
     question: "Marque a opção que contém áreas profissionais da tecnologia.",
     answers: [
      
-      { option: "Advocacia, engenharia civil, medicina.", correct: false },
-      { option: "Artes, música, dança.", correct: false },
-      { option: "Vendas, moda, design gráfico.", correct: false },
-      { option: "Desenvolvimento de software, redes, segurança digital.", correct: true }
+      { option: "Medicina, Engenharia Civil, Moda.", correct: false },
+      { option: "Programação, Segurança da Informação, Design de Sites.", correct: true },
+      { option: "Direito, Administração, Arquitetura.", correct: false },
+      { option: "Pintura, Música, Fotografia.", correct: false }
     ]
   },
   {
