@@ -1,74 +1,83 @@
 const questions = [
   {
-    question: "O que é tecnologia?",
+    question: "O que é Tecnologia?",
     answers: [
-      { option: "Ferramentas para facilitar a vida.", correct: true },
-      { option: "Apenas computadores.", correct: false },
-      { option: "Máquinas antigas.", correct: false },
-      { option: "Coisas de cientistas.", correct: false }
+      { option: "Ferramentas e conhecimentos para facilitar nossa vida.", correct: true },
+      { option: "Apenas aparelhos eletrônicos.", correct: false },
+      { option: "Coisas feitas por cientistas.", correct: false },
+      { option: "Equipamentos usados em escolas.", correct: false }
     ]
   },
   {
-    question: "O que é a internet?",
+    question: "O que é a Internet?",
     answers: [
-      { option: "Uma rede que conecta pessoas.", correct: true },
-      { option: "Um programa de computador.", correct: false },
-      { option: "Um tipo de celular.", correct: false },
-      { option: "Apenas redes sociais.", correct: false }
+      { option: "Uma rede que conecta pessoas e informações no mundo todo.", correct: true },
+      { option: "Um programa para usar no computador.", correct: false },
+      { option: "Um tipo de computador moderno.", correct: false },
+      { option: "Um aplicativo para redes sociais.", correct: false }
     ]
   },
   {
-    question: "Qual o objetivo da internet?",
+    question: "Qual o objetivo da Internet?",
     answers: [
-      { option: "Conectar pessoas e informações.", correct: true },
-      { option: "Fazer jogos.", correct: false },
-      { option: "Substituir livros.", correct: false },
-      { option: "Enviar mensagens.", correct: false }
+      { option: "Compartilhar informações e conectar pessoas.", correct: true },
+      { option: "Procurar jogos e assistir vídeos.", correct: false },
+      { option: "Salvar arquivos importantes.", correct: false },
+      { option: "Criar documentos e enviar e-mails.", correct: false }
     ]
   },
   {
     question: "Onde os sites ficam hospedados?",
     answers: [
-      { option: "Em servidores.", correct: true },
-      { option: "No computador de quem criou.", correct: false },
-      { option: "Na internet.", correct: false },
-      { option: "No celular.", correct: false }
+      { option: "Em computadores chamados servidores.", correct: true },
+      { option: "No celular de quem acessa.", correct: false },
+      { option: "Na memória do computador pessoal.", correct: false },
+      { option: "Em aplicativos de armazenamento.", correct: false }
+    ]
+  },
+  {
+    question: "Marque a opção que contém áreas profissionais da tecnologia.",
+    answers: [
+      { option: "Desenvolvimento de software, redes, segurança digital.", correct: true },
+      { option: "Advocacia, engenharia civil, medicina.", correct: false },
+      { option: "Artes, música, dança.", correct: false },
+      { option: "Vendas, moda, design gráfico.", correct: false }
     ]
   },
   {
     question: "Quem foi Ada Lovelace?",
     answers: [
-      { option: "A primeira programadora.", correct: true },
-      { option: "Criadora do computador.", correct: false },
-      { option: "Inventora da internet.", correct: false },
-      { option: "Engenheira famosa.", correct: false }
+      { option: "A primeira pessoa a criar um programa de computador.", correct: true },
+      { option: "A criadora da internet.", correct: false },
+      { option: "Uma engenheira que inventou os computadores.", correct: false },
+      { option: "Uma programadora moderna famosa.", correct: false }
     ]
   },
   {
-    question: "O que é um site?",
+    question: "O que é um Web Site?",
     answers: [
-      { option: "Uma página na internet.", correct: true },
-      { option: "Um programa de computador.", correct: false },
-      { option: "Um tipo de documento.", correct: false },
-      { option: "Apenas uma imagem.", correct: false }
+      { option: "Uma página ou conjunto de páginas na internet.", correct: true },
+      { option: "Um programa instalado no computador.", correct: false },
+      { option: "Um aplicativo para celulares.", correct: false },
+      { option: "Uma rede de amigos online.", correct: false }
     ]
   },
   {
-    question: "Qual site vamos criar na oficina?",
+    question: "Qual será o tipo de site que vamos desenvolver nessa oficina?",
     answers: [
-      { option: "Um site pessoal.", correct: true },
-      { option: "Um site de vendas.", correct: false },
-      { option: "Um site de notícias.", correct: false },
-      { option: "Um site de jogos.", correct: false }
+      { option: "Um site pessoal para apresentação.", correct: true },
+      { option: "Um site de compras online.", correct: false },
+      { option: "Um blog de notícias.", correct: false },
+      { option: "Um site de vídeos.", correct: false }
     ]
   },
   {
-    question: "O que vamos usar para criar o site?",
+    question: "O que iremos utilizar para criar o site pessoal nessa oficina?",
     answers: [
-      { option: "HTML e CSS.", correct: true },
-      { option: "Um aplicativo.", correct: false },
-      { option: "Um editor de texto.", correct: false },
-      { option: "Um programa de design.", correct: false }
+      { option: "HTML e CSS, ferramentas para criar e estilizar páginas.", correct: true },
+      { option: "Programas de edição de texto.", correct: false },
+      { option: "Aplicativos de celular.", correct: false },
+      { option: "Canetas e cadernos.", correct: false }
     ]
   }
 ];
