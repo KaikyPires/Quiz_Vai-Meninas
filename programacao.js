@@ -2,8 +2,9 @@ const questions = [
   {
     question: "O que é Tecnologia?",
     answers: [
-      { option: "Ferramentas e conhecimentos para facilitar nossa vida.", correct: true },
+   
       { option: "Apenas aparelhos eletrônicos.", correct: false },
+      { option: "Ferramentas e conhecimentos para facilitar nossa vida.", correct: true },
       { option: "Coisas feitas por cientistas.", correct: false },
       { option: "Equipamentos usados em escolas.", correct: false }
     ]
@@ -20,17 +21,19 @@ const questions = [
   {
     question: "Qual o objetivo da Internet?",
     answers: [
-      { option: "Compartilhar informações e conectar pessoas.", correct: true },
+
       { option: "Procurar jogos e assistir vídeos.", correct: false },
       { option: "Salvar arquivos importantes.", correct: false },
+      { option: "Compartilhar informações e conectar pessoas.", correct: true },
       { option: "Criar documentos e enviar e-mails.", correct: false }
     ]
   },
   {
     question: "Onde os sites ficam hospedados?",
     answers: [
-      { option: "Em computadores chamados servidores.", correct: true },
+    
       { option: "No celular de quem acessa.", correct: false },
+      { option: "Em computadores chamados servidores.", correct: true },
       { option: "Na memória do computador pessoal.", correct: false },
       { option: "Em aplicativos de armazenamento.", correct: false }
     ]
@@ -38,10 +41,11 @@ const questions = [
   {
     question: "Marque a opção que contém áreas profissionais da tecnologia.",
     answers: [
-      { option: "Desenvolvimento de software, redes, segurança digital.", correct: true },
+     
       { option: "Advocacia, engenharia civil, medicina.", correct: false },
       { option: "Artes, música, dança.", correct: false },
-      { option: "Vendas, moda, design gráfico.", correct: false }
+      { option: "Vendas, moda, design gráfico.", correct: false },
+      { option: "Desenvolvimento de software, redes, segurança digital.", correct: true }
     ]
   },
   {
@@ -56,9 +60,10 @@ const questions = [
   {
     question: "O que é um Web Site?",
     answers: [
-      { option: "Uma página ou conjunto de páginas na internet.", correct: true },
+
       { option: "Um programa instalado no computador.", correct: false },
       { option: "Um aplicativo para celulares.", correct: false },
+      { option: "Uma página ou conjunto de páginas na internet.", correct: true },
       { option: "Uma rede de amigos online.", correct: false }
     ]
   },
@@ -74,9 +79,10 @@ const questions = [
   {
     question: "O que iremos utilizar para criar o site pessoal nessa oficina?",
     answers: [
-      { option: "HTML e CSS, ferramentas para criar e estilizar páginas.", correct: true },
+      
       { option: "Programas de edição de texto.", correct: false },
       { option: "Aplicativos de celular.", correct: false },
+      { option: "HTML e CSS, ferramentas para criar e estilizar páginas.", correct: true },
       { option: "Canetas e cadernos.", correct: false }
     ]
   }
