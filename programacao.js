@@ -1,91 +1,96 @@
 const questions = [
   {
-    question: "O que é Tecnologia?",
-    answers: [
-   
-      { option: "Apenas aparelhos eletrônicos.", correct: false },
-      { option: "Ferramentas e conhecimentos para facilitar nossa vida.", correct: true },
-      { option: "Coisas feitas por cientistas.", correct: false },
-      { option: "Equipamentos usados em escolas.", correct: false }
-    ]
-  },
-  {
-    question: "O que é a Internet?",
-    answers: [
-      { option: "Uma rede que conecta pessoas e informações no mundo todo.", correct: true },
-      { option: "Um programa para usar no computador.", correct: false },
-      { option: "Um tipo de computador moderno.", correct: false },
-      { option: "Um aplicativo para redes sociais.", correct: false }
-    ]
-  },
-  {
-    question: "Qual o objetivo da Internet?",
-    answers: [
-
-      { option: "Conectar pessoas e compartilhar informações.", correct: true },
-      { option: "Apenas assistir vídeos.", correct: false },
-      { option: "Ajudar as pessoas a fazerem cálculos.", correct: false },
-      { option: "Criar senhas complicadas.", correct: false }
-    ]
-  },
-  {
-    question: "Onde os sites ficam hospedados?",
-    answers: [
-    
-      { option: "Em computadores chamados servidores.", correct: true },
-      { option: "Em um CD ou DVD.", correct: false },
-      { option: "No celular.", correct: false },
-      { option: "Em um pen drive.", correct: false }
-    ]
-  },
-  {
-    question: "Marque a opção que contém áreas profissionais da tecnologia.",
-    answers: [
-     
-      { option: "Medicina, Engenharia Civil, Moda.", correct: false },
-      { option: "Programação, Segurança da Informação, Design de Sites.", correct: true },
-      { option: "Direito, Administração, Arquitetura.", correct: false },
-      { option: "Pintura, Música, Fotografia.", correct: false }
-    ]
-  },
-  {
-    question: "Quem foi Ada Lovelace?",
-    answers: [
-      { option: "A primeira pessoa a criar um programa de computador.", correct: true },
-      { option: "A criadora da internet.", correct: false },
-      { option: "Uma engenheira que inventou os computadores.", correct: false },
-      { option: "Uma programadora moderna famosa.", correct: false }
-    ]
-  },
-  {
-    question: "O que é um Web Site?",
-    answers: [
-
-      { option: "Um programa instalado no computador.", correct: false },
-      { option: "Um aplicativo para celulares.", correct: false },
-      { option: "Uma página ou conjunto de páginas na internet.", correct: true },
-      { option: "Uma rede de amigos online.", correct: false }
-    ]
-  },
-  {
-    question: "Qual será o tipo de site que vamos desenvolver nessa oficina?",
-    answers: [
-      { option: "Um site pessoal para apresentação.", correct: true },
-      { option: "Um site de compras online.", correct: false },
-      { option: "Um blog de notícias.", correct: false },
-      { option: "Um site de vídeos.", correct: false }
-    ]
-  },
-  {
-    question: "O que iremos utilizar para criar o site pessoal nessa oficina?",
+    question: "Qual a principal função do HTML em um site?",
     answers: [
       
-      { option: "Programas de edição de texto.", correct: false },
-      { option: "Aplicativos de celular.", correct: false },
-      { option: "HTML e CSS, ferramentas para criar e estilizar páginas.", correct: true },
-      { option: "Canetas e cadernos.", correct: false }
+      { option: "Adicionar estilos ao site.", correct: false },
+      { option: "Estruturar o conteúdo do site.", correct: true },
+      { option: "Garantir segurança do site.", correct: false },
+      { option: "Conectar o site à internet.", correct: false }
+    ]
+  },
+  {
+    question: "Para que serve a tag <html> em um documento HTML?",
+    answers: [
+      { option: "Indicar o início do código HTML.", correct: true },
+      { option: "Adicionar imagens ao site.", correct: false },
+      { option: "Criar parágrafos no site.", correct: false },
+      { option: "Definir o título da página.", correct: false }
+    ]
+  },
+  {
+    question: "Qual é o propósito da tag <head> em um documento HTML?",
+    answers: [
+
+      { option: "Mostrar o conteúdo principal da página.", correct: false },
+      { option: "Criar parágrafos e listas.", correct: false },
+      { option: "Adicionar imagens ao site.", correct: false },
+      { option: "Incluir informações e configurações do site.", correct: true }
+    ]
+  },
+  {
+    question: "O que a tag <title> define em uma página HTML? Onde essa informação aparece?",
+    answers: [
+      { option: "Define o título que aparece na aba do navegador.", correct: true },
+      { option: "Define o nome do site no rodapé.", correct: false },
+      { option: "Mostra o nome do site na página inicial.", correct: false },
+      { option: "Adiciona um título para imagens no site.", correct: false }
+    ]
+  },
+  {
+    question: "Como podemos criar um parágrafo em HTML? Qual tag usamos?",
+    answers: [
+      { option: "Usamos a tag <p>.", correct: true },
+      { option: "Usamos a tag <h1>.", correct: false },
+      { option: "Usamos a tag <div>.", correct: false },
+      { option: "Usamos a tag <br>.", correct: false }
+    ]
+  },
+  {
+    question: "Qual a principal função do CSS em um site?",
+    answers: [
+      { option: "Adicionar estilo e design ao site.", correct: true },
+      { option: "Criar links entre páginas.", correct: false },
+      { option: "Estruturar o conteúdo do site.", correct: false },
+      { option: "Conectar o site à internet.", correct: false }
+    ]
+  },
+  {
+    question: "O que acontece quando adicionamos o código CSS no <head> do HTML usando <link rel='stylesheet' href='style.css'>?",
+    answers: [
+      { option: "O navegador aplica o estilo definido no arquivo CSS.", correct: true },
+      { option: "O navegador cria links automáticos no site.", correct: false },
+      { option: "O HTML passa a ter um rodapé automático.", correct: false },
+      { option: "O site é carregado mais rapidamente.", correct: false }
+    ]
+  },
+  {
+    question: "Para que serve a propriedade background-color no CSS?",
+    answers: [
+      { option: "Alterar a cor de fundo de um elemento.", correct: true },
+      { option: "Adicionar imagens ao fundo do site.", correct: false },
+      { option: "Mudar a cor do texto no site.", correct: false },
+      { option: "Alterar a cor das bordas do site.", correct: false }
+    ]
+  },
+  {
+    question: "Qual é a diferença entre as tags <h1> e <p> no HTML?",
+    answers: [
+      { option: "<h1> é usada para títulos e <p> para parágrafos.", correct: true },
+      { option: "<h1> é usada para links e <p> para textos curtos.", correct: false },
+      { option: "<h1> é usada para listas e <p> para imagens.", correct: false },
+      { option: "<h1> é usada para rodapés e <p> para cabeçalhos.", correct: false }
+    ]
+  },
+  {
+    question: "Se quisermos centralizar um texto usando CSS, qual propriedade podemos usar? Dê um exemplo.",
+    answers: [
+      { option: "Usar a propriedade text-align: center.", correct: true },
+      { option: "Usar a propriedade justify-content: center.", correct: false },
+      { option: "Usar a propriedade margin: auto.", correct: false },
+      { option: "Usar a propriedade align-items: center.", correct: false }
     ]
   }
 ];
 
-export default questions;
+export default questions;
