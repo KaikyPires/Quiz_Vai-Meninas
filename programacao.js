@@ -31,10 +31,11 @@ const questions = [
   {
     question: "O que a tag <title> define em uma página HTML? Onde essa informação aparece?",
     answers: [
-      { option: "Define o título que aparece na aba do navegador.", correct: true },
+      
       { option: "Define o nome do site no rodapé.", correct: false },
       { option: "Mostra o nome do site na página inicial.", correct: false },
-      { option: "Adiciona um título para imagens no site.", correct: false }
+      { option: "Adiciona um título para imagens no site.", correct: false },
+      { option: "Define o título que aparece na aba do navegador.", correct: true }
     ]
   },
   {
@@ -58,8 +59,9 @@ const questions = [
   {
     question: "O que acontece quando adicionamos o código CSS no <head> do HTML usando <link rel='stylesheet' href='style.css'>?",
     answers: [
-      { option: "O navegador aplica o estilo definido no arquivo CSS.", correct: true },
+      
       { option: "O navegador cria links automáticos no site.", correct: false },
+      { option: "O navegador aplica o estilo definido no arquivo CSS.", correct: true },
       { option: "O HTML passa a ter um rodapé automático.", correct: false },
       { option: "O site é carregado mais rapidamente.", correct: false }
     ]
@@ -67,9 +69,10 @@ const questions = [
   {
     question: "Para que serve a propriedade background-color no CSS?",
     answers: [
-      { option: "Alterar a cor de fundo de um elemento.", correct: true },
+     
       { option: "Adicionar imagens ao fundo do site.", correct: false },
       { option: "Mudar a cor do texto no site.", correct: false },
+      { option: "Alterar a cor de fundo de um elemento.", correct: true },
       { option: "Alterar a cor das bordas do site.", correct: false }
     ]
   },
