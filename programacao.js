@@ -2,17 +2,12 @@ const questions = [
   {
     question: "Qual a principal função do HTML em um site?",
     answers: [
-      
       { option: "Adicionar estilos ao site.", correct: false },
       { option: "Estruturar o conteúdo do site.", correct: true },
       { option: "Garantir segurança do site.", correct: false },
       { option: "Conectar o site à internet.", correct: false }
     ]
   },
-  
-  
-
-
   {
     question: "Qual a principal função do CSS em um site?",
     answers: [
@@ -25,7 +20,6 @@ const questions = [
   {
     question: "O que acontece quando adicionamos o código CSS no <head> do HTML usando <link rel='stylesheet' href='style.css'>?",
     answers: [
-      
       { option: "O navegador cria links automáticos no site.", correct: false },
       { option: "O navegador aplica o estilo definido no arquivo CSS.", correct: true },
       { option: "O HTML passa a ter um rodapé automático.", correct: false },
@@ -35,14 +29,12 @@ const questions = [
   {
     question: "Para que serve a propriedade background-color no CSS?",
     answers: [
-     
       { option: "Adicionar imagens ao fundo do site.", correct: false },
       { option: "Mudar a cor do texto no site.", correct: false },
       { option: "Alterar a cor de fundo de um elemento.", correct: true },
       { option: "Alterar a cor das bordas do site.", correct: false }
     ]
   },
-  
   {
     question: "Se quisermos centralizar um texto usando CSS, qual propriedade podemos usar? Dê um exemplo.",
     answers: [
@@ -54,4 +46,4 @@ const questions = [
   }
 ];
 
-export default questions;
+export default questions;
