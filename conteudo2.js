@@ -9,7 +9,7 @@ const questions = [
       ]
     },
     {
-      question: "Para que serve a tag `<title>` no HTML?",
+      question: "Para que serve a tag <title> no HTML?",
       answers: [
         { option: "Definir o título da página que aparece na aba do navegador.", correct: true },
         { option: "Adicionar um título ao conteúdo principal.", correct: false },
@@ -18,7 +18,7 @@ const questions = [
       ]
     },
     {
-      question: "Qual é a função da tag `<p>` no HTML?",
+      question: "Qual é a função da tag <p> no HTML?",
       answers: [
         { option: "Criar um parágrafo.", correct: true },
         { option: "Definir um cabeçalho.", correct: false },
