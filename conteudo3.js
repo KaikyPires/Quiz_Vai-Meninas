@@ -27,14 +27,14 @@ const questions = [
       ]
     },
     {
-      question: "Qual unidade de medida é relativa ao tamanho da fonte no CSS?",
-      answers: [
-        { option: "px", correct: false },
-        { option: "em", correct: true },
-        { option: "cm", correct: false },
-        { option: "mm", correct: false }
-      ]
-    },
+        question: "Qual propriedade do CSS é usada para alterar o tamanho da fonte?",
+        answers: [
+          { option: "font-size", correct: true },
+          { option: "text-size", correct: false },
+          { option: "size-font", correct: false },
+          { option: "text-style", correct: false }
+        ]
+      },
     {
       question: "Como centralizamos um texto horizontalmente no CSS?",
       answers: [
